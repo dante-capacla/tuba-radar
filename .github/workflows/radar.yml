@@ -1,8 +1,6 @@
-name: Tuba Radar
-
 on:
   schedule:
-    - cron: "*/45 * * * *"
+    - cron: "0,45 * * * *"
   workflow_dispatch:
 
 jobs:
